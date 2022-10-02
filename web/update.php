@@ -14,6 +14,7 @@ use Symfony\Component\HttpFoundation\Request;
 $autoloader = require_once 'autoload.php';
 $testCommit = 1234;
 $nikietyka= 12345;
+$new = 'abe pravq neshto monogo qko';
 $test= 'niki pravi neshto nova...';
 // Disable garbage collection during test runs. Under certain circumstances the
 // update path will create so many objects that garbage collection causes
