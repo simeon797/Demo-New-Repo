@@ -12,7 +12,7 @@ use Drupal\Core\Update\UpdateKernel;
 use Symfony\Component\HttpFoundation\Request;
 
 $autoloader = require_once 'autoload.php';
-
+$testCommit = 1234;
 // Disable garbage collection during test runs. Under certain circumstances the
 // update path will create so many objects that garbage collection causes
 // segmentation faults.
